@@ -109,7 +109,7 @@ body {
 
 .promo__text {
   font-size: 14px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #363636;
 }
 
@@ -141,6 +141,8 @@ body {
 
 .info__part--first img {
   width: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .info__part--first .info__part--textbox {
@@ -178,6 +180,7 @@ body {
   object-fit: none;
 }
 
-.info__table tr td:nth-child(1), td:nth-child(2) {
+.info__table tr td:nth-child(1),
+td:nth-child(2) {
   padding-right: 20px;
 }
