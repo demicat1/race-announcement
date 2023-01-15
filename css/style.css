@@ -118,3 +118,49 @@ body {
   margin-bottom: 30px;
   align-self: center;
 }
+
+.info {
+  margin-bottom: 100px;
+}
+
+.info__part {
+  padding-top: 100px;
+  display: flex;
+  gap: 30px;
+}
+
+.info__title {
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.info__part--first {
+  display: block;
+}
+
+.info__part--first .info__part--textbox {
+  display: flex;
+  gap: 30px;
+}
+
+.info__part--textbox .info__text {
+  flex: 1;
+}
+
+.info__part--third .info__content {
+  flex: 1;
+}
+
+.info__title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.info__text {
+  margin-bottom: 30px;
+}
+
+.info__part--img {
+  object-fit: cover;
+  width: 90%;
+}
