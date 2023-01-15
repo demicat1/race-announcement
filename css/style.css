@@ -127,6 +127,7 @@ body {
   padding-top: 100px;
   display: flex;
   gap: 30px;
+  justify-content: space-between;
 }
 
 .info__title {
@@ -138,6 +139,10 @@ body {
   display: block;
 }
 
+.info__part--first img {
+  width: 100%;
+}
+
 .info__part--first .info__part--textbox {
   display: flex;
   gap: 30px;
@@ -145,6 +150,15 @@ body {
 
 .info__part--textbox .info__text {
   flex: 1;
+}
+
+.info__part--second .info__content .info__text {
+  max-width: 350px;
+}
+
+.info__part--second .info__part--img {
+  max-width: 100%;
+  width: 380px;
 }
 
 .info__part--third .info__content {
@@ -161,6 +175,9 @@ body {
 }
 
 .info__part--img {
-  object-fit: cover;
-  width: 90%;
+  object-fit: none;
+}
+
+.info__table tr td:nth-child(1), td:nth-child(2) {
+  padding-right: 20px;
 }
